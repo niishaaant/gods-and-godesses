@@ -37,6 +37,7 @@
     display: flex;
     align-items: center;
     position: relative;
+    margin-bottom: 8rem;
     .intro-text {
       border-right: 2px solid var(--text);
       width: 70%;
@@ -73,17 +74,22 @@
   .about-life-container {
     width: 100%;
     display: flex;
-    .about-text {
+    margin-bottom: 8rem;
+    .about-text-container {
       margin: 2rem 3rem;
       font-size: 1.2rem;
+      width: 70vw;
       .heading {
         font-size: 1.3rem;
         color: #fff;
       }
     }
     .gif {
-      width: 400px;
-      height: 400px;
+      width: 25vw;
+      height: 26vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       padding: 0 50px;
       border-radius: 50%;
       border: 10px double #fff;

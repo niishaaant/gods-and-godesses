@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./hero.scss";
 import gods from "../../utils/gods.mp4";
 
@@ -99,8 +100,12 @@ const AboutLife2 = () => {
           <button>Know More</button>
         </div>
         <div className="about-text">
-          <button style={{ fontSize: "1.2rem" }}>Click here</button> to see the
-          complete Roadmap.
+          <button style={{ fontSize: "1.2rem" }}>
+            <Link to="/roadmap" className="link">
+              Click here
+            </Link>
+          </button>{" "}
+          to see the complete Roadmap.
         </div>
       </div>
     </div>

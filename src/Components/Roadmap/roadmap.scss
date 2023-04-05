@@ -1,0 +1,54 @@
+.roadmap-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  .quator {
+    height: 70vh;
+    width: 8vw;
+    overflow: hidden;
+    border: 1px solid #fff;
+    transition: 0.5s;
+    display: flex;
+  }
+  .expand {
+    background-color: rgba($color: #333, $alpha: 0.7);
+    text-align: center;
+    min-width: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    span {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+  }
+  .content {
+    width: 52vw;
+    padding: 2rem;
+    .heading {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    .task-list {
+      ul {
+        list-style: none;
+      }
+      li {
+        margin: 0.5rem 0;
+        border-left: 1px solid #fff;
+        padding-left: 0.5rem;
+      }
+    }
+  }
+  .active {
+    width: 60vw;
+  }
+}
