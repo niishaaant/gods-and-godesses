@@ -1,7 +1,14 @@
 import React from "react";
+import "./background.scss";
 
-const Background = () => {
-  return <div>Background</div>;
+const Background = ({ children }) => {
+  return (
+    <div className="background-container">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </div>
+  );
 };
 
 export default Background;

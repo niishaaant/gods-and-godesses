@@ -1,6 +1,36 @@
+html {
+  background-color: radial-gradient(
+    ellipse at bottom,
+    #1b2735 0%,
+    #090a0f 100%
+  );
+}
+
 body {
+  --background: #111;
+  --primary: #0c1821;
+  --primary2: #1b2a41;
+  --accent: #324a5f;
+  --text: #ccc9dc;
   margin: 0;
   padding: 0;
-  background-color: #333;
-  color: #aaa;
+  background-color: var(--background);
+  color: var(--text);
+  font-family: "Raleway", sans-serif;
+}
+
+button {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--text);
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+  border-bottom: 2px solid var(--text);
+  transition: 0.2s;
+}
+button:hover {
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
 }

@@ -1,10 +1,13 @@
 .nav-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
-  color: #aaa;
-  border-bottom: 2px solid #aaa;
+  border-bottom: 2px solid var(--text);
   .logo-container {
     display: flex;
     padding: 1.5rem;
@@ -14,8 +17,13 @@
   .link-container {
     display: flex;
     font-size: 1.5rem;
+    transition: 0.5s;
     .link-item {
       margin: 0 0.5rem;
+    }
+    :hover {
+      color: #fff;
+      cursor: pointer;
     }
   }
   .action-container {
@@ -24,10 +32,14 @@
     button {
       padding: 0.75rem 1rem;
       font-size: 1rem;
-      border: 2px solid #aaa;
-      background-color: #e25822;
-      color: #aaa;
+      background-color: transparent;
+      border: 2px solid var(--text);
       border-radius: 100px;
+      color: var(--text);
+      transition: 0.2s;
+    }
+    button:hover {
+      background-color: rgba($color: #ccc, $alpha: 0.2);
     }
   }
 }
