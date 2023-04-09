@@ -85,14 +85,21 @@
       }
     }
     .gif {
-      width: 25vw;
-      height: 26vw;
+      width: 30vw;
+      height: 30vw;
       display: flex;
       justify-content: center;
       align-items: center;
       padding: 0 50px;
-      border-radius: 50%;
-      border: 10px double #fff;
+      .border {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: 10px double #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     }
     button {
       font-size: 1rem;

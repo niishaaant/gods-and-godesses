@@ -14,7 +14,11 @@ const Nav = () => {
         <Link to="/roadmap" className="link">
           <div className="link-item">ROADMAP</div>
         </Link>
-        <div className="link-item">COLLECTION</div>
+        <div className="link-item">
+          <Link to="/collection" className="link">
+            COLLECTION
+          </Link>
+        </div>
         <div className="link-item">BUY NFT</div>
         <div className="link-item">ECOSYSTEM</div>
         <div className="link-item">TEAM | SUPPORT</div>

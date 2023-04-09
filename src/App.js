@@ -5,6 +5,9 @@ import "./App.css";
 import Hero from "./Components/Hero";
 import Background from "./Components/Background";
 import Roadmap from "./Components/Roadmap";
+import Collection from "./Components/Collection";
+import Footer from "./Components/Footer";
+import Minting from "./Components/Minting";
 
 const App = () => {
   return (
@@ -14,7 +17,10 @@ const App = () => {
       <Routes>
         <Route index path="/" element={<Hero />} />
         <Route path="/roadmap" element={<Roadmap />} />
+        <Route path="/collection" element={<Collection />} />
+        <Route path="/buynft" element={<Minting />} />
       </Routes>
+      {/* <Footer /> */}
     </>
   );
 };

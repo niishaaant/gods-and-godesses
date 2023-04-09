@@ -48,14 +48,16 @@ const AboutLife2 = () => {
   return (
     <div className="about-life-container">
       <div className="gif">
-        <video
-          src={gods}
-          autoPlay
-          muted
-          loop
-          width="300px"
-          height="400px"
-        ></video>
+        <div className="border">
+          <video
+            src={gods}
+            autoPlay
+            muted
+            loop
+            width="300px"
+            height="300px"
+          ></video>
+        </div>
       </div>
       <div className="about-text-container">
         <div className="about-text">

@@ -212,6 +212,52 @@ const Roadmap = () => {
             </div>
           </div>
         </div>
+        <div className={`quator q5 ${expand === 5 ? "active" : ""}`}>
+          <div className="expand">
+            <button onClick={() => setExpand(5)}>
+              {expand === 5 ? "<" : ">"}
+            </button>
+            <span>5</span>
+          </div>
+          <div className="content">
+            <div className="heading">Beyond Q1 2024</div>
+            <div className="task-list">
+              <ul>
+                <li>Continuous expansion and updates to the multiverse</li>
+                <li>
+                  {" "}
+                  Regular introduction of new worlds, characters, and NFT
+                  collections
+                </li>
+                <li>
+                  Incorporation of user feedback and suggestions for
+                  improvements
+                </li>
+                <li>
+                  Ongoing marketing efforts and community engagement to maintain
+                  user interest and growth
+                </li>
+                <li>
+                  Exploration of new technologies and partnerships to stay ahead
+                  in the rapidly evolving digital landscape
+                </li>
+                <li>
+                  {" "}
+                  Exclusive access to GLSC (Globus Smart Coin) private sale for
+                  NFT holders
+                </li>
+                <li>
+                  Continuous integration of GLSC tokens as a utility within the
+                  multiverse and future projects
+                </li>
+                <li>
+                  Premium treatment and first access to all Globuschain products
+                  and services with discounts for GLSC token holders
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
