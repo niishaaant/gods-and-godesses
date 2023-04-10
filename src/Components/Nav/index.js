@@ -19,9 +19,16 @@ const Nav = () => {
             COLLECTION
           </Link>
         </div>
-        <div className="link-item">BUY NFT</div>
-        <div className="link-item">ECOSYSTEM</div>
-        <div className="link-item">TEAM | SUPPORT</div>
+        <div className="link-item">
+          <Link to="/buynft" className="link">
+            BUY NFT
+          </Link>
+        </div>
+        <div className="link-item">
+          <Link to="/teamsupport" className="link">
+            TEAM | SUPPORT
+          </Link>
+        </div>
         <div className="link-item">BLOG</div>
       </div>
       <div className="action-container">

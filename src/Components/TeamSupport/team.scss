@@ -1,0 +1,97 @@
+.team-support-container {
+  margin: 6rem 2rem;
+  .team-container {
+    width: 70%;
+    border-right: 2px solid #fff;
+    .member-container {
+      width: 100%;
+      height: 20vw;
+      display: flex;
+      align-items: center;
+      .member-image {
+        width: 10vw;
+        height: 10vw;
+        background-color: #fff;
+      }
+      .info {
+        margin-left: 2rem;
+        .member-name {
+          font-size: 3rem;
+        }
+      }
+    }
+    .one {
+      margin-left: 6rem;
+    }
+    .two {
+      margin-left: 2rem;
+    }
+    .three {
+      margin-left: 8rem;
+    }
+    .four {
+      margin-left: 0rem;
+    }
+  }
+  .form-container {
+    width: 100%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 4rem;
+    .form {
+      border-left: 2px solid #fff;
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      padding: 2rem 0;
+      .text {
+        font-size: 2rem;
+        width: 100%;
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+      .name {
+        width: 50vw;
+        height: 5vh;
+        border: none;
+        border-bottom: 2px solid #fff;
+        background-color: transparent;
+        font-size: 1.2rem;
+        color: #fff;
+        background-color: rgba($color: #333, $alpha: 0.4);
+        padding: 0.5rem;
+      }
+      .email {
+        width: 50vw;
+        height: 5vh;
+        border: none;
+        border-bottom: 2px solid #fff;
+        background-color: transparent;
+        font-size: 1.2rem;
+        color: #fff;
+        background-color: rgba($color: #333, $alpha: 0.4);
+        padding: 0.5rem;
+      }
+      .message {
+        width: 50vw;
+        height: 25vh;
+        border: none;
+        border-bottom: 2px solid #fff;
+        background-color: transparent;
+        font-size: 1.2rem;
+        color: #fff;
+        background-color: rgba($color: #333, $alpha: 0.4);
+        padding: 0.5rem;
+      }
+      .buttons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

@@ -8,6 +8,7 @@ import Roadmap from "./Components/Roadmap";
 import Collection from "./Components/Collection";
 import Footer from "./Components/Footer";
 import Minting from "./Components/Minting";
+import TeamSupport from "./Components/TeamSupport";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/roadmap" element={<Roadmap />} />
         <Route path="/collection" element={<Collection />} />
         <Route path="/buynft" element={<Minting />} />
+        <Route path="/teamsupport" element={<TeamSupport />} />
       </Routes>
       {/* <Footer /> */}
     </>
