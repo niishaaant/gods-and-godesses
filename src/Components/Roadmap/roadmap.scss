@@ -1,11 +1,7 @@
 .roadmap-container {
-  width: 100vw;
   height: 100vh;
   overflow: hidden;
   display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
   justify-content: center;
   align-items: center;
   z-index: 2;
@@ -50,5 +46,32 @@
   }
   .active {
     width: 60vw;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .roadmap-container {
+    display: flex;
+    flex-direction: column;
+    .quator {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      height: 5vh;
+    }
+    .content {
+      width: 90%;
+      font-size: 1.2rem;
+    }
+    .expand {
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      min-height: 5vh;
+    }
+    .active {
+      width: 90%;
+      height: 60vh;
+    }
   }
 }

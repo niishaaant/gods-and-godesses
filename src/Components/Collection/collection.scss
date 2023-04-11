@@ -2,7 +2,7 @@
   padding: 6rem 2rem;
   .banner-container {
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,11 +10,10 @@
     margin-bottom: 4rem;
     .banner {
       position: relative;
-      background-image: url("../../utils/godsAndGoddessBanner.jpg");
+      background-image: url("../../utils/godsAndGoddessBanner.png");
       background-position: center;
       background-repeat: no-repeat;
-      background-size: cover;
-      // filter: blur(6px);
+      background-size: contain;
       height: 60vh;
       width: 100%;
     }
@@ -22,7 +21,7 @@
       position: absolute;
       font-size: 2.5rem;
       font-weight: 700;
-      display: flex;
+      display: none;
       flex-direction: column;
       align-items: center;
       padding: 3rem;
@@ -157,6 +156,22 @@
       .date {
         z-index: 2;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .collection-container {
+    .banner-container {
+      height: 20vh;
+      .banner {
+        height: 30vh;
+      }
+    }
+    .collection-showcase {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   }
 }

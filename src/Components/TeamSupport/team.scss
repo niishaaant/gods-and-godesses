@@ -9,9 +9,11 @@
       display: flex;
       align-items: center;
       .member-image {
-        width: 10vw;
-        height: 10vw;
-        background-color: #fff;
+        width: 15vw;
+        height: 15vw;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
       }
       .info {
         margin-left: 2rem;
@@ -22,12 +24,21 @@
     }
     .one {
       margin-left: 6rem;
+      .member-image {
+        background-image: url("../../utils/team1.jpg");
+      }
     }
     .two {
       margin-left: 2rem;
+      .member-image {
+        background-image: url("../../utils/team2.jpg");
+      }
     }
     .three {
       margin-left: 8rem;
+      .member-image {
+        background-image: url("../../utils/team3.jpg");
+      }
     }
     .four {
       margin-left: 0rem;
@@ -91,6 +102,38 @@
         display: flex;
         justify-content: center;
         align-items: center;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .team-support-container {
+    .team-container {
+      width: 95%;
+      margin-top: 8rem;
+      .one {
+        margin-left: 0rem;
+      }
+      .two {
+        margin-left: 0rem;
+      }
+      .three {
+        margin-left: 0rem;
+      }
+    }
+    .form-container {
+      .form {
+        width: 95%;
+        .name {
+          width: 90%;
+        }
+        .email {
+          width: 90%;
+        }
+        .message {
+          width: 90%;
+        }
       }
     }
   }

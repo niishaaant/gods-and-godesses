@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/buynft" element={<Minting />} />
         <Route path="/teamsupport" element={<TeamSupport />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

@@ -34,7 +34,7 @@ const ActionSection = () => {
             </div>
           </div>
           <div className="call-to-action-container">
-            <button className="primary-action">Mint NFT</button>
+            <button className="primary-action">WhitePaper</button>
             <button className="secondary-action">Explore Ecosystem</button>
           </div>
         </div>
@@ -49,14 +49,7 @@ const AboutLife2 = () => {
     <div className="about-life-container">
       <div className="gif">
         <div className="border">
-          <video
-            src={gods}
-            autoPlay
-            muted
-            loop
-            width="300px"
-            height="300px"
-          ></video>
+          <video src={gods} autoPlay muted loop></video>
         </div>
       </div>
       <div className="about-text-container">

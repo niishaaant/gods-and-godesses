@@ -1,12 +1,14 @@
 import React from "react";
 import "./minting.scss";
-import gods from "../../utils/gods.mp4";
+import gods from "../../utils/IMG_4649.gif";
+import goddesses from "../../utils/IMG_4648.gif";
 
 const Minting = () => {
   return (
     <div className="minting-container">
       <div className="about-section">
         <div className="title">
+          <div className="background"></div>
           <div className="left"></div>
           <div className="center">
             Etarnal Gods and Godesses of Egypt
@@ -23,20 +25,33 @@ const Minting = () => {
           <div className="nft-image">
             <div className="gif">
               <div className="border">
-                <video
-                  src={gods}
-                  autoPlay
-                  muted
-                  loop
-                  width="350px"
-                  height="350px"
-                ></video>
+                <img src={goddesses} />
               </div>
             </div>
           </div>
           <div className="buttons">
-            <span style={{ fontSize: "1rem" }}>Stay tuned</span>
-            <br></br>Coming soon!
+            Goddesses of Egypt
+            <span style={{ fontSize: "1rem", margin: "1rem 1rem" }}>
+              Stay tuned
+            </span>
+            Coming soon!
+          </div>
+        </div>
+        <hr></hr>
+        <div className="action">
+          <div className="nft-image">
+            <div className="gif">
+              <div className="border">
+                <img src={gods} />
+              </div>
+            </div>
+          </div>
+          <div className="buttons">
+            Gods of Egypt
+            <span style={{ fontSize: "1rem", margin: "1rem 1rem" }}>
+              Stay tuned
+            </span>
+            Coming soon!
           </div>
         </div>
       </div>

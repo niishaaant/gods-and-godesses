@@ -11,6 +11,9 @@ const Nav = () => {
         </Link>
       </div>
       <div className="link-container">
+        <Link to="/" className="link">
+          <div className="link-item">HOME</div>
+        </Link>
         <Link to="/roadmap" className="link">
           <div className="link-item">ROADMAP</div>
         </Link>
@@ -29,10 +32,9 @@ const Nav = () => {
             TEAM | SUPPORT
           </Link>
         </div>
-        <div className="link-item">BLOG</div>
       </div>
       <div className="action-container">
-        <button>Connect Wallet</button>
+        <button disabled={true}>Connect Wallet</button>
       </div>
     </div>
   );
