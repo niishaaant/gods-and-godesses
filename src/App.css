@@ -40,7 +40,7 @@ button:hover {
   color: var(--text);
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
   html {
     font-size: 10px;
   }

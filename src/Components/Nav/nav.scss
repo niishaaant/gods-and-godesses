@@ -42,12 +42,52 @@
       background-color: rgba($color: #ccc, $alpha: 0.2);
     }
   }
+
+  .openNavbar {
+    border-bottom: none;
+    display: none;
+  }
 }
 
-@media only screen and (max-width: 700px) {
+.responsive-nav-container {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 80vw;
+  height: 100vh;
+  background-color: #222;
+  z-index: 1000;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-size: 3rem;
+  transition: 0.6s;
+  .close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    .openNavbar {
+      border-bottom: none;
+    }
+  }
+}
+
+.active {
+  left: 0;
+}
+
+@media only screen and (max-width: 900px) {
   .nav-container {
     .link-container {
       display: none;
     }
+    .openNavbar {
+      display: block;
+    }
+  }
+  .responsive-nav-container {
+    display: flex;
   }
 }
