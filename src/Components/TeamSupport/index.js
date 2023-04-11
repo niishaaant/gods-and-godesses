@@ -45,20 +45,73 @@ const Team = () => {
 const Support = () => {
   return (
     <div className="form-container">
-      <form className="form">
-        <div className="text">Please do leave a message.</div>
-        <input type="text" className="name" placeholder="Name"></input>
-        <input type="email" className="email" placeholder="Email"></input>
-        <textarea
-          type="text"
-          className="message"
-          placeholder="Message"
-        ></textarea>
-        <div className="buttons">
-          <button type="submit">Submit</button>
-          <button type="reset">Cancel</button>
-        </div>
-      </form>
+      <div id="mc_embed_signup">
+        <form
+          action="https://life2.us10.list-manage.com/subscribe/post?u=2fd3861a1fe3a76da5bebe524&amp;id=219375e828&amp;f_id=003ccbe5f0"
+          method="post"
+          id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form"
+          class="validate"
+          target="_blank"
+          novalidate
+          style={{ backgroundColor: "transparent", color: "#fff" }}
+        >
+          <div
+            id="mc_embed_signup_scroll"
+            style={{ backgroundColor: "transparent" }}
+          >
+            <h2>Please do leave a message</h2>
+            <div class="indicates-required">
+              <span class="asterisk">*</span> indicates required
+            </div>
+            <div class="mc-field-group">
+              <label for="mce-EMAIL">
+                Email Address <span class="asterisk">*</span>
+              </label>
+              <input
+                type="email"
+                name="EMAIL"
+                class="required email"
+                id="mce-EMAIL"
+                required
+                style={{ height: "1.5rem", color: "#fff" }}
+              />
+            </div>
+            <div class="mc-field-group">
+              <label for="mce-FNAME">
+                Name <span class="asterisk">*</span>
+              </label>
+              <input
+                type="text"
+                name="FNAME"
+                class="required"
+                id="mce-FNAME"
+                required
+                style={{ height: "1.5rem", color: "#fff" }}
+              />
+            </div>
+            <div class="mc-field-group">
+              <label for="mce-MMERGE6">Message </label>
+              <textarea
+                type="text"
+                name="MMERGE6"
+                class=""
+                id="mce-MMERGE6"
+                style={{ height: "6rem", color: "#fff" }}
+              />
+            </div>
+            <div class="clear">
+              <input
+                type="submit"
+                value="Subscribe"
+                name="subscribe"
+                id="mc-embedded-subscribe"
+                class="button"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   );
 };

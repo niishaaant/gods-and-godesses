@@ -59,6 +59,9 @@
       justify-content: center;
       align-items: center;
       width: 25vw;
+      video {
+        border-radius: 2rem;
+      }
     }
     .collection-description {
       position: relative;

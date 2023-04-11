@@ -11,9 +11,10 @@
       .member-image {
         width: 15vw;
         height: 15vw;
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        border-radius: 2rem;
       }
       .info {
         margin-left: 2rem;
@@ -51,6 +52,12 @@
     flex-direction: column;
     align-items: end;
     margin-top: 4rem;
+    #mc_embed_signup {
+      input,
+      textarea {
+        background-color: rgba($color: #333, $alpha: 0.7);
+      }
+    }
     .form {
       border-left: 2px solid #fff;
       width: 70%;
@@ -121,18 +128,28 @@
       .three {
         margin-left: 0rem;
       }
+      .member-container {
+        height: 30vw;
+        .member-image {
+          width: 20vw;
+          height: 20vw;
+        }
+      }
     }
     .form-container {
       .form {
         width: 95%;
         .name {
           width: 90%;
+          height: 4vh;
         }
         .email {
           width: 90%;
+          height: 4vh;
         }
         .message {
           width: 90%;
+          height: 15vh;
         }
       }
     }
