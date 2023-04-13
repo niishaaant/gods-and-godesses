@@ -26,16 +26,16 @@ const Team = () => {
         <div className="member-image"></div>
         <div className="info">
           <div className="member-name heading">ANHUR</div>
-          <div className="member-position">HR & Admin Management</div>
+          <div className="member-position">
+            Social Media & Marketing Management
+          </div>
         </div>
       </div>
       <div className="member-container three">
         <div className="member-image"></div>
         <div className="info">
           <div className="member-name heading">ISIS</div>
-          <div className="member-position">
-            Social Media & Marketing Management
-          </div>
+          <div className="member-position">HR & Admin Management</div>
         </div>
       </div>
     </div>

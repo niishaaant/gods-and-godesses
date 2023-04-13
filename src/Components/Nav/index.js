@@ -3,7 +3,7 @@ import "./nav.scss";
 import { Link } from "react-router-dom";
 import close from "../../utils/icons8-close-window-50.png";
 import open from "../../utils/icons8-menu-50.png";
-import logo from "../../utils/siteLogo.jpg";
+import logo from "../../utils/siteLogo2.png";
 
 const Nav = () => {
   const [openNav, setOpenNav] = useState(false);

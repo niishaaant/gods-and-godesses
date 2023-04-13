@@ -16,6 +16,9 @@
     span {
       text-transform: uppercase;
     }
+    img {
+      width: 35vw;
+    }
     .instruction {
       font-size: 1rem;
       padding-left: 200px;
@@ -109,6 +112,14 @@
       align-items: center;
       .gif {
         height: 300px;
+      }
+      .about-text-container {
+        .about-text {
+          font-size: 1.4rem;
+          .heading {
+            font-size: 1.7rem;
+          }
+        }
       }
     }
     .action-section-container {

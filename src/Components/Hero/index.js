@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./hero.scss";
 import gods from "../../utils/gods.mp4";
-import logo from "../../utils/siteLogo.jpg";
+import logo from "../../utils/siteLogo.png";
+import logo2 from "../../utils/siteLogo2.png";
+import logo3 from "../../utils/siteLogo3.png";
 
 const Hero = () => {
   return (
@@ -10,7 +12,7 @@ const Hero = () => {
       <div className="landing">
         <div id="title">
           <div className="instruction left">Introducing</div>
-          <span className="heading">Life2</span>
+          <img src={logo2}></img>
           <div className="instruction">
             scroll to <span style={{ color: "#fff" }}>explore</span>
           </div>
@@ -35,8 +37,17 @@ const ActionSection = () => {
             </div>
           </div>
           <div className="call-to-action-container">
-            <button className="primary-action">WhitePaper</button>
-            <button className="secondary-action">Explore Ecosystem</button>
+            <Link
+              to="/files/whitepaper.pdf"
+              target="_blank"
+              download
+              className="link"
+            >
+              <button className="primary-action">Get WhitePaper</button>
+            </Link>
+            <Link to="/collection" className="link">
+              <button className="secondary-action">Explore Ecosystem</button>
+            </Link>
           </div>
         </div>
         <div className="logo">
@@ -80,7 +91,9 @@ const AboutLife2 = () => {
           individuals to customize their digital presence but also fosters a
           vibrant, interconnected community where users can engage in social
           interactions, trade, and collaborate on shared experiences.
-          <button>Know More</button>
+          <Link to="/buynft">
+            <button>Know More</button>
+          </Link>
         </div>
         <div className="about-text">
           <span className="heading">Globuschain</span>
@@ -95,7 +108,9 @@ const AboutLife2 = () => {
           investors and buyers will enjoy premium treatment and priority access
           to all future Globuschain products and services, along with exclusive
           discounts.
-          <button>Know More</button>
+          <a href="https://globuschain.com/">
+            <button>Know More</button>
+          </a>
         </div>
         <div className="about-text">
           <button style={{ fontSize: "1.2rem" }}>

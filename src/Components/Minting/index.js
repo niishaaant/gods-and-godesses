@@ -2,6 +2,8 @@ import React from "react";
 import "./minting.scss";
 import gods from "../../utils/IMG_4649.gif";
 import goddesses from "../../utils/IMG_4648.gif";
+import godsLogo from "../../utils/godsLogo.jpg";
+import goddessLogo from "../../utils/goddessLogo.jpg";
 
 const Minting = () => {
   return (
@@ -30,7 +32,10 @@ const Minting = () => {
             </div>
           </div>
           <div className="buttons">
-            Goddesses of Egypt
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <img src={goddessLogo} />
+              Goddesses of Egypt
+            </div>
             <span style={{ fontSize: "1rem", margin: "1rem 1rem" }}>
               Stay tuned
             </span>
@@ -47,7 +52,10 @@ const Minting = () => {
             </div>
           </div>
           <div className="buttons">
-            Gods of Egypt
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <img src={godsLogo} />
+              Gods of Egypt
+            </div>
             <span style={{ fontSize: "1rem", margin: "1rem 1rem" }}>
               Stay tuned
             </span>
