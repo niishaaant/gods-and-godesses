@@ -3,6 +3,7 @@ import "./nav.scss";
 import { Link } from "react-router-dom";
 import close from "../../utils/icons8-close-window-50.png";
 import open from "../../utils/icons8-menu-50.png";
+import logo from "../../utils/siteLogo.jpg";
 
 const Nav = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -19,7 +20,7 @@ const Nav = () => {
         </button>
         <div className="logo-container">
           <Link to="/" className="link">
-            L2
+            <img src={logo} />
           </Link>
         </div>
         <div className="link-container">
@@ -77,6 +78,7 @@ const ResponsiveNav = ({ openNav, setOpenNav }) => {
         >
           <div className="link-item">HOME</div>
         </Link>
+        <hr></hr>
         <Link
           to="/roadmap"
           className="link"
@@ -86,6 +88,7 @@ const ResponsiveNav = ({ openNav, setOpenNav }) => {
         >
           <div className="link-item">ROADMAP</div>
         </Link>
+        <hr></hr>
         <div className="link-item">
           <Link
             to="/collection"
@@ -97,6 +100,7 @@ const ResponsiveNav = ({ openNav, setOpenNav }) => {
             COLLECTION
           </Link>
         </div>
+        <hr></hr>
         <div className="link-item">
           <Link
             to="/buynft"
@@ -108,6 +112,7 @@ const ResponsiveNav = ({ openNav, setOpenNav }) => {
             BUY NFT
           </Link>
         </div>
+        <hr></hr>
         <div
           className="link-item"
           onClick={() => {

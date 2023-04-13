@@ -1,0 +1,326 @@
+// .roadmap-container {
+//   height: 100vh;
+//   overflow: hidden;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   z-index: 2;
+//   .quator {
+//     height: 70vh;
+//     width: 8vw;
+//     overflow: hidden;
+//     border: 1px solid #fff;
+//     transition: 0.5s;
+//     display: flex;
+//   }
+//   .expand {
+//     background-color: rgba($color: #333, $alpha: 0.7);
+//     text-align: center;
+//     min-width: 8vw;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//     align-items: center;
+//     span {
+//       font-size: 3rem;
+//       font-weight: 700;
+//     }
+//   }
+//   .content {
+//     width: 52vw;
+//     padding: 2rem;
+//     .heading {
+//       font-size: 2rem;
+//       font-weight: 700;
+//     }
+//     .task-list {
+//       ul {
+//         list-style: none;
+//       }
+//       li {
+//         margin: 0.5rem 0;
+//         border-left: 1px solid #fff;
+//         padding-left: 0.5rem;
+//       }
+//     }
+//   }
+//   .active {
+//     width: 60vw;
+//   }
+// }
+
+// @media only screen and (max-width: 700px) {
+//   .roadmap-container {
+//     display: flex;
+//     flex-direction: column;
+//     .quator {
+//       display: flex;
+//       flex-direction: column;
+//       width: 90%;
+//       height: 5vh;
+//     }
+//     .content {
+//       width: 90%;
+//       font-size: 1.2rem;
+//     }
+//     .expand {
+//       flex-direction: row;
+//       align-items: center;
+//       width: 100%;
+//       min-height: 5vh;
+//     }
+//     .active {
+//       width: 90%;
+//       height: 60vh;
+//     }
+//   }
+// }
+
+/* roadmap----------- */
+.roadmapSection {
+  width: 100%;
+  margin: auto;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 6rem 0px;
+}
+.roadmapSection h3 {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/*road-map-section----------------*/
+.roadmap-section {
+  padding-top: 80px;
+}
+
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background: rgb(255, 180, 60);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.container {
+  padding: 15px 30px;
+  position: relative;
+  background: inherit;
+  width: 45%;
+  font-family: "Kanit";
+}
+
+.container.left {
+  left: 0;
+}
+
+.container.right {
+  left: 50%;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: calc(50% - 8px);
+  right: -8px;
+  background: #ffffff;
+  border: 2px solid rgb(255, 180, 60);
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.container.right::after {
+  left: -8px;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  top: calc(50% - 1px);
+  right: 8px;
+  background: rgb(255, 180, 60);
+  z-index: 1;
+}
+
+.container.right::before {
+  left: 8px;
+}
+
+.container .date {
+  /* position: absolute; */
+  display: inline-block;
+  top: calc(50% - 8px);
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(255, 180, 60);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Kanit";
+  z-index: 1;
+}
+
+.container.left .date {
+  right: -95px;
+}
+
+.container.right .date {
+  left: -95px;
+}
+
+.container .icon {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 9px 0;
+  top: calc(50% - 20px);
+  background: white;
+  border: 2px solid rgb(255, 180, 60);
+  border-radius: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(255, 180, 60);
+  z-index: 1;
+}
+
+.container.left .icon {
+  right: 56px;
+}
+
+.container.right .icon {
+  left: 56px;
+}
+
+.container .content {
+  padding: 30px 90px 30px 30px;
+  background: linear-gradient(45deg, rgb(0, 0, 0), rgb(20, 20, 20));
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 180, 60, 0.7);
+  z-index: 10;
+  color: white;
+}
+
+.container.right .content {
+  padding: 30px 30px 30px 90px;
+  border-radius: 10px;
+}
+
+.container .content h2 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+
+.container .content p {
+  margin: 0;
+  font-size: 12px;
+  font-family: "Kanit";
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+}
+.container .content li {
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 767.98px) {
+  .roadmap-section {
+    width: 100%;
+  }
+
+  .timeline::after {
+    left: 10px;
+  }
+
+  .container {
+    width: 85%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .container.right {
+    left: 0%;
+  }
+
+  .container.left::after,
+  .container.right::after {
+    left: 82px;
+  }
+
+  .container.left::before,
+  .container.right::before {
+    display: none;
+    left: 30px;
+    border-color: transparent rgb(255, 180, 60) transparent transparent;
+  }
+
+  .container.left .date,
+  .container.right .date {
+    right: auto;
+    left: 15px;
+    font-size: 12px;
+  }
+
+  .container.left .icon,
+  .container.right .icon {
+    right: auto;
+    left: 30px;
+    display: none;
+  }
+
+  .container.left .content,
+  .container.right .content {
+    padding: 30px 30px 30px 50px;
+    border-radius: 10px 0 0 10px;
+    font-size: 12px;
+  }
+}
+
+.chartSection {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  padding: 100px 0px;
+}
+.chartSection div {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  font-family: "Kanit";
+}
+.chartSection img {
+  width: 100%;
+}
+.chartSection div h3 {
+  margin: 20px;
+  font-size: 25px;
+}
+
+@media (max-width: 800px) {
+  .chartSection {
+    padding: 30px 0px;
+    flex-direction: column;
+  }
+  .chartSection div {
+    width: 70vw;
+  }
+}

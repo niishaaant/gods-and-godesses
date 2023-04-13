@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./hero.scss";
 import gods from "../../utils/gods.mp4";
+import logo from "../../utils/siteLogo.jpg";
 
 const Hero = () => {
   return (
@@ -9,7 +10,7 @@ const Hero = () => {
       <div className="landing">
         <div id="title">
           <div className="instruction left">Introducing</div>
-          <span>Life2</span>
+          <span className="heading">Life2</span>
           <div className="instruction">
             scroll to <span style={{ color: "#fff" }}>explore</span>
           </div>
@@ -38,7 +39,9 @@ const ActionSection = () => {
             <button className="secondary-action">Explore Ecosystem</button>
           </div>
         </div>
-        <div className="logo">L2</div>
+        <div className="logo">
+          <img src={logo} />
+        </div>
       </div>
     </>
   );

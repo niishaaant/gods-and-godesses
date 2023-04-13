@@ -40,6 +40,11 @@ button:hover {
   color: var(--text);
 }
 
+.heading {
+  color: rgb(255, 165, 20);
+  font-weight: 700;
+}
+
 @media only screen and (max-width: 900px) {
   html {
     font-size: 10px;
