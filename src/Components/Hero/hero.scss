@@ -17,7 +17,7 @@
       text-transform: uppercase;
     }
     img {
-      width: 35vw;
+      width: 30vw;
     }
     .instruction {
       font-size: 1rem;
@@ -47,6 +47,7 @@
       }
       .website-tagline {
         margin: 1rem 5rem;
+        font-size: 1.5rem;
       }
     }
     .call-to-action-container {
@@ -106,6 +107,11 @@
 
 @media only screen and (max-width: 700px) {
   .hero {
+    #title {
+      img {
+        width: 60vw;
+      }
+    }
     .about-life-container {
       display: flex;
       flex-direction: column;

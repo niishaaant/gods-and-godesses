@@ -168,8 +168,11 @@
   .collection-container {
     .banner-container {
       height: 40vh;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
       .banner {
         height: 50vh;
+        width: 150%;
       }
     }
     .collection-showcase {
@@ -186,6 +189,12 @@
       height: 20vh;
       .banner {
         height: 20vh;
+      }
+    }
+    .future-collections {
+      .about-future-collections {
+        display: flex;
+        flex-direction: column;
       }
     }
   }

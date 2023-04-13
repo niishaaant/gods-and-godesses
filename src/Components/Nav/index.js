@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./nav.scss";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import close from "../../utils/icons8-close-window-50.png";
 import open from "../../utils/icons8-menu-50.png";
 import logo from "../../utils/siteLogo2.png";
@@ -19,31 +19,49 @@ const Nav = () => {
           <img src={open} width="20px" height="20px" />
         </button>
         <div className="logo-container">
-          <Link to="/" className="link">
+          <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? "active link" : "link")}
+          >
             <img src={logo} />
-          </Link>
+          </NavLink>
         </div>
         <div className="link-container">
-          <Link to="/" className="link">
+          <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? "active link" : "link")}
+          >
             <div className="link-item">HOME</div>
-          </Link>
-          <Link to="/roadmap" className="link">
+          </NavLink>
+          <NavLink
+            to="/roadmap"
+            className={({ isActive }) => (isActive ? "active link" : "link")}
+          >
             <div className="link-item">ROADMAP</div>
-          </Link>
+          </NavLink>
           <div className="link-item">
-            <Link to="/collection" className="link">
+            <NavLink
+              to="/collection"
+              className={({ isActive }) => (isActive ? "active link" : "link")}
+            >
               COLLECTION
-            </Link>
+            </NavLink>
           </div>
           <div className="link-item">
-            <Link to="/buynft" className="link">
+            <NavLink
+              to="/buynft"
+              className={({ isActive }) => (isActive ? "active link" : "link")}
+            >
               BUY NFT
-            </Link>
+            </NavLink>
           </div>
           <div className="link-item">
-            <Link to="/teamsupport" className="link">
+            <NavLink
+              to="/teamsupport"
+              className={({ isActive }) => (isActive ? "active link" : "link")}
+            >
               TEAM | SUPPORT
-            </Link>
+            </NavLink>
           </div>
         </div>
         <div className="action-container">
@@ -69,48 +87,48 @@ const ResponsiveNav = ({ openNav, setOpenNav }) => {
         </button>
       </div>
       <div className="links-container">
-        <Link
+        <NavLink
           to="/"
-          className="link"
+          className={({ isActive }) => (isActive ? "active link" : "link")}
           onClick={() => {
             setOpenNav(false);
           }}
         >
           <div className="link-item">HOME</div>
-        </Link>
+        </NavLink>
         <hr></hr>
-        <Link
+        <NavLink
           to="/roadmap"
-          className="link"
+          className={({ isActive }) => (isActive ? "active link" : "link")}
           onClick={() => {
             setOpenNav(false);
           }}
         >
           <div className="link-item">ROADMAP</div>
-        </Link>
+        </NavLink>
         <hr></hr>
         <div className="link-item">
-          <Link
+          <NavLink
             to="/collection"
-            className="link"
+            className={({ isActive }) => (isActive ? "active link" : "link")}
             onClick={() => {
               setOpenNav(false);
             }}
           >
             COLLECTION
-          </Link>
+          </NavLink>
         </div>
         <hr></hr>
         <div className="link-item">
-          <Link
+          <NavLink
             to="/buynft"
-            className="link"
+            className={({ isActive }) => (isActive ? "active link" : "link")}
             onClick={() => {
               setOpenNav(false);
             }}
           >
             BUY NFT
-          </Link>
+          </NavLink>
         </div>
         <hr></hr>
         <div
@@ -119,9 +137,12 @@ const ResponsiveNav = ({ openNav, setOpenNav }) => {
             setOpenNav(false);
           }}
         >
-          <Link to="/teamsupport" className="link">
+          <NavLink
+            to="/teamsupport"
+            className={({ isActive }) => (isActive ? "active link" : "link")}
+          >
             TEAM | SUPPORT
-          </Link>
+          </NavLink>
         </div>
       </div>
       <div className="social-container"></div>

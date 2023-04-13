@@ -100,6 +100,29 @@ const Support = () => {
                 style={{ height: "6rem", color: "#fff" }}
               />
             </div>
+            <div id="mce-responses" class="clear">
+              <div
+                class="response"
+                id="mce-error-response"
+                style={{ display: "none" }}
+              ></div>
+              <div
+                class="response"
+                id="mce-success-response"
+                style={{ display: "none" }}
+              ></div>
+            </div>
+            <div
+              style={{ position: "absolute", left: "-5000px" }}
+              aria-hidden="true"
+            >
+              <input
+                type="text"
+                name="b_2fd3861a1fe3a76da5bebe524_219375e828"
+                tabindex="-1"
+                value=""
+              />
+            </div>
             <div class="clear">
               <input
                 type="submit"

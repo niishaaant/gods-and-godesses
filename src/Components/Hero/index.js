@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="landing">
         <div id="title">
           <div className="instruction left">Introducing</div>
-          <img src={logo2}></img>
+          <img src={logo3}></img>
           <div className="instruction">
             scroll to <span style={{ color: "#fff" }}>explore</span>
           </div>
