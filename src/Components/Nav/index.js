@@ -47,14 +47,14 @@ const Nav = () => {
               COLLECTION
             </NavLink>
           </div>
-          <div className="link-item">
+          {/* <div className="link-item">
             <NavLink
               to="/buynft"
               className={({ isActive }) => (isActive ? "active link" : "link")}
             >
               BUY NFT
             </NavLink>
-          </div>
+          </div> */}
           <div className="link-item">
             <NavLink
               to="/teamsupport"
@@ -119,7 +119,7 @@ const ResponsiveNav = ({ openNav, setOpenNav }) => {
           </NavLink>
         </div>
         <hr></hr>
-        <div className="link-item">
+        {/* <div className="link-item">
           <NavLink
             to="/buynft"
             className={({ isActive }) => (isActive ? "active link" : "link")}
@@ -129,7 +129,7 @@ const ResponsiveNav = ({ openNav, setOpenNav }) => {
           >
             BUY NFT
           </NavLink>
-        </div>
+        </div> */}
         <hr></hr>
         <div
           className="link-item"

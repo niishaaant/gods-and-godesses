@@ -7,7 +7,7 @@ import Background from "./Components/Background";
 import Roadmap from "./Components/Roadmap";
 import Collection from "./Components/Collection";
 import Footer from "./Components/Footer";
-import Minting from "./Components/Minting";
+// import Minting from "./Components/Minting";
 import TeamSupport from "./Components/TeamSupport";
 
 const App = () => {
@@ -19,7 +19,7 @@ const App = () => {
         <Route index path="/" element={<Hero />} />
         <Route path="/roadmap" element={<Roadmap />} />
         <Route path="/collection" element={<Collection />} />
-        <Route path="/buynft" element={<Minting />} />
+        {/* <Route path="/buynft" element={<Minting />} /> */}
         <Route path="/teamsupport" element={<TeamSupport />} />
       </Routes>
       <Footer />

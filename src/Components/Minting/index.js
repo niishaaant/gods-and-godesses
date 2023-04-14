@@ -9,7 +9,7 @@ const Minting = () => {
   return (
     <div className="minting-container">
       <div className="about-section">
-        <div className="title">
+        {/* <div className="title">
           <div className="background"></div>
           <div className="left"></div>
           <div className="center">
@@ -20,7 +20,7 @@ const Minting = () => {
             </div>
           </div>
           <div className="right"></div>
-        </div>
+        </div> */}
 
         <hr></hr>
         <div className="action">

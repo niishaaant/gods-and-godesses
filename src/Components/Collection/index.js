@@ -2,27 +2,15 @@ import React from "react";
 import "./collection.scss";
 import gods from "../../utils/gods.mp4";
 import { Link } from "react-router-dom";
+import Minting from "../Minting";
 
 const Collection = () => {
   return (
     <div className="collection-container">
       <div className="banner-container">
         <div className="banner"></div>
-        <div className="heading">
-          Egyption Gods and Goddesses 𓅓
-          <div className="call-to-action">
-            Going live <span style={{ fontWeight: "700" }}>MAY 2023</span>{" "}
-            <Link
-              className="link"
-              to="/buynft"
-              style={{ borderBottom: "1px solid #fff", fontSize: "0.8rem" }}
-            >
-              Know More
-            </Link>
-          </div>
-        </div>
       </div>
-      <div className="introduction">
+      {/* <div className="introduction">
         <span>
           <span className="heading">The Life2.io multiverse</span>
           <br></br> is a vast, interconnected digital landscape that encompasses
@@ -91,7 +79,8 @@ const Collection = () => {
             <button>GET YOURS TODAY</button>
           </div>
         </div>
-      </div>
+      </div> */}
+      <Minting />
       <div className="future-collections">
         <div className="heading">Future Collections</div>
         <div className="about-future-collections">

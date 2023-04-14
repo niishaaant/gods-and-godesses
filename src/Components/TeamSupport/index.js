@@ -5,6 +5,7 @@ const TeamSupport = () => {
   return (
     <div className="team-support-container">
       <Team />
+      <hr></hr>
       <Support />
     </div>
   );
@@ -60,7 +61,7 @@ const Support = () => {
             id="mc_embed_signup_scroll"
             style={{ backgroundColor: "transparent" }}
           >
-            <h2>Please do leave a message</h2>
+            <h2>Please leave your queries here.</h2>
             <div class="indicates-required">
               <span class="asterisk">*</span> indicates required
             </div>
@@ -91,7 +92,7 @@ const Support = () => {
               />
             </div>
             <div class="mc-field-group">
-              <label for="mce-MMERGE6">Message </label>
+              <label for="mce-MMERGE6">Query</label>
               <textarea
                 type="text"
                 name="MMERGE6"
@@ -126,7 +127,7 @@ const Support = () => {
             <div class="clear">
               <input
                 type="submit"
-                value="Subscribe"
+                value="Submit"
                 name="subscribe"
                 id="mc-embedded-subscribe"
                 class="button"

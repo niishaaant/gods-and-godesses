@@ -1,13 +1,17 @@
 .team-support-container {
-  margin: 6rem 2rem;
+  margin: 8rem 2rem;
   .team-container {
-    width: 70%;
-    border-right: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
     .member-container {
-      width: 100%;
+      width: 30vw;
       height: 20vw;
       display: flex;
+      flex-direction: column;
       align-items: center;
+      text-align: center;
       .member-image {
         width: 15vw;
         height: 15vw;
@@ -24,19 +28,16 @@
       }
     }
     .one {
-      margin-left: 6rem;
       .member-image {
         background-image: url("../../utils/team1.jpg");
       }
     }
     .two {
-      margin-left: 2rem;
       .member-image {
         background-image: url("../../utils/team2.jpg");
       }
     }
     .three {
-      margin-left: 8rem;
       .member-image {
         background-image: url("../../utils/team3.jpg");
       }
@@ -117,9 +118,10 @@
 @media only screen and (max-width: 850px) {
   .team-support-container {
     .team-container {
-      width: 95%;
+      width: 100%;
       margin-top: 8rem;
       border: none;
+      flex-direction: column;
       .one {
         margin-left: 0rem;
       }
@@ -130,7 +132,7 @@
         margin-left: 0rem;
       }
       .member-container {
-        height: 35vw;
+        height: 30vh;
         .member-image {
           width: 30vw;
           height: 30vw;
