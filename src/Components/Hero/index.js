@@ -21,6 +21,7 @@ const Hero = () => {
       <ActionSection />
       <GlobusSection />
       <AboutLife2 />
+      <Benefits />
     </div>
   );
 };
@@ -158,9 +159,21 @@ const AboutLife2 = () => {
 const Benefits = () => {
   return (
     <div className="benefits-container">
-      <div className="one"></div>
-      <div className="two"></div>
-      <div className="three"></div>
+      <div className="heading">What's in it for you?</div>
+      <div className="content">
+        <div className="one">
+          <div className="no">1</div>
+          <div>Exclusive membership to Life2 Multiverse</div>
+        </div>
+        <div className="two">
+          <div className="no">2</div>
+          <div>Early access to GlobusChain blockchain products</div>
+        </div>
+        <div className="three">
+          <div className="no">3</div>
+          <div> Nft buyers only participate into the glsc presale</div>
+        </div>
+      </div>
     </div>
   );
 };
