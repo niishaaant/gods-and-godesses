@@ -118,7 +118,7 @@ const ResponsiveNav = ({ openNav, setOpenNav }) => {
             COLLECTION
           </NavLink>
         </div>
-        <hr></hr>
+        {/* <hr></hr> */}
         {/* <div className="link-item">
           <NavLink
             to="/buynft"
