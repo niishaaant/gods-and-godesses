@@ -4,6 +4,10 @@ import { NavLink } from "react-router-dom";
 import close from "../../utils/icons8-close-window-50.png";
 import open from "../../utils/icons8-menu-50.png";
 import logo from "../../utils/siteLogo2.png";
+import fb from "../../utils/icons8-facebook-24.png";
+import twitter from "../../utils/icons8-twitter-48.png";
+import insta from "../../utils/icons8-instagram-24.png";
+import reddit from "../../utils/icons8-reddit-24.png";
 
 const Nav = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -145,7 +149,32 @@ const ResponsiveNav = ({ openNav, setOpenNav }) => {
           </NavLink>
         </div>
       </div>
-      <div className="social-container"></div>
+      <div className="social-container">
+        <div className="left">
+          <div className="logos">
+            <span className="twitter logo">
+              <a href="https://twitter.com/Life2_io">
+                <img src={twitter} width="26px" height="26px" />
+              </a>
+            </span>
+            <span className="facebook logo">
+              <a href="https://www.facebook.com/profile.php?id=100091639115487">
+                <img src={fb} width="24px" height="24px" />
+              </a>
+            </span>
+            <span className="reddit logo">
+              <a href="https://www.reddit.com/r/Life2_io/">
+                <img src={reddit} width="24px" height="24px" />
+              </a>
+            </span>
+            <span className="instagram logo">
+              <a href="https://instagram.com/life2_io">
+                <img src={insta} width="24px" height="24px" />
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./hero.scss";
-import gods from "../../utils/gods.mp4";
+import gods from "../../utils/godsAndGoddesses.mp4";
 import logo from "../../utils/siteLogo.png";
 import logo3 from "../../utils/siteLogo3.png";
 import globuslogo from "../../utils/globus-logo.png";
