@@ -244,4 +244,15 @@
       }
     }
   }
+  .scroller-container {
+    padding: 0 0 4rem 0;
+    .scroller-item {
+      width: 50vw;
+      height: 50vw;
+      img {
+        width: 48vw;
+        height: 48vw;
+      }
+    }
+  }
 }
