@@ -31,9 +31,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <Scroller />
       <ActionSection />
       <GlobusSection />
-      <Scroller />
       <AboutLife2 />
       <Benefits />
     </div>
@@ -111,8 +111,7 @@ const AboutLife2 = () => {
           <br></br>
           Discover the Eternal Gods of Egypt NFT collection, a journey into
           ancient mythology. Own an exclusive and valuable piece of history with
-          these limited edition, beautifully illustrated NFTs. And keep links as
-          given but in button form
+          these limited edition, beautifully illustrated NFTs.
           <Link to="/collection">
             <button onClick={scrollToTop}>Know More</button>
           </Link>
@@ -169,7 +168,7 @@ const GlobusSection = () => {
         Life2.io is part of the Globuschain Project, a digital revolution
         linking worlds and assets. By purchasing NFTs within Life2.io, users
         gain access to Globuschain's private sale and exclusive perks across all
-        products and services. links as u have given but in golden button form.
+        products and services.
         <br></br>
         <a href="https://globuschain.com/">
           <button>Visit</button>

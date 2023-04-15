@@ -36,7 +36,14 @@ const Minting = () => {
               <img src={goddessLogo} />
               Goddesses of Egypt
             </div>
-            <span style={{ fontSize: "1rem", margin: "1rem 1rem" }}>
+            <span style={{ fontSize: "1.8rem", marginTop: "1rem" }}>
+              Celebrate the divine feminine with the "Eternal Goddess of Egypt"
+              NFT collection. Own a piece of history that highlights the
+              strength and beauty of goddesses like Isis, Bastet, and Hathor,
+              while exploring the mystical world of Ancient Egypt.
+            </span>
+            <br></br>
+            <span style={{ fontSize: "1rem", margin: "0.2rem 1rem" }}>
               Stay tuned
             </span>
             Coming soon!
@@ -56,6 +63,14 @@ const Minting = () => {
               <img src={godsLogo} />
               Gods of Egypt
             </div>
+            <span style={{ fontSize: "1.8rem", marginTop: "1rem" }}>
+              {" "}
+              Experience the powerful deities of Ancient Egyptian mythology with
+              "Eternal Gods of Egypt" on the Ethereum blockchain. Securely own
+              and trade these unique digital assets while immersing in the rich
+              world of Ancient Egypt.
+            </span>
+            <br></br>
             <span style={{ fontSize: "1rem", margin: "1rem 1rem" }}>
               Stay tuned
             </span>

@@ -45,7 +45,7 @@
       .website-name {
         font-size: 3rem;
         font-weight: 700;
-        color: #fff;
+        color: rgb(255, 165, 20);
         margin: 0 4rem;
       }
       .website-tagline {
@@ -181,6 +181,7 @@
 }
 
 .scroller-container {
+  padding: 0 0 4rem 0;
   .scroller-item {
     width: 20vw;
     height: 20vw;
