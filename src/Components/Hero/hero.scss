@@ -180,6 +180,20 @@
   }
 }
 
+.scroller-container {
+  .scroller-item {
+    width: 20vw;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 19vw;
+      height: 19vw;
+    }
+  }
+}
+
 @media only screen and (max-width: 700px) {
   .hero {
     #title {

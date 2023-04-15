@@ -45,7 +45,7 @@ const Team = () => {
 
 const Support = () => {
   return (
-    <div className="form-container">
+    <div className="form-container" id="form">
       <div id="mc_embed_signup">
         <form
           action="https://life2.us10.list-manage.com/subscribe/post?u=2fd3861a1fe3a76da5bebe524&amp;id=219375e828&amp;f_id=003ccbe5f0"
