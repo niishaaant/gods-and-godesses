@@ -130,12 +130,13 @@ const AboutLife2 = () => {
           Discover the Eternal Gods of Egypt NFT collection, a journey into
           ancient mythology. Own an exclusive and valuable piece of history with
           these limited edition, beautifully illustrated NFTs.
+          <br></br>
           <Link to="/collection">
             <button onClick={scrollToTop}>Know More</button>
           </Link>
         </div>
         <div className="about-text">
-          <button style={{ fontSize: "1.2rem" }}>
+          <button>
             <Link to="/roadmap" className="link" onClick={scrollToTop}>
               Click here
             </Link>
@@ -168,7 +169,7 @@ const Benefits = () => {
         <div className="three">
           <div className="no">3</div>
           <div>
-            Only NFT holders can participate in GLSC token Private and Presale
+            Only NFT holders can participate in GLSC token Private and Presale
           </div>
         </div>
       </div>

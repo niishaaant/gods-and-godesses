@@ -38,7 +38,6 @@
   position: relative;
   background: inherit;
   width: 45%;
-  font-family: "Kanit";
 }
 
 .container.left {
@@ -86,12 +85,11 @@
   display: inline-block;
   top: calc(50% - 8px);
   text-align: center;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 500;
   color: rgb(255, 180, 60);
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: "Kanit";
   z-index: 1;
 }
 
@@ -151,9 +149,8 @@
 
 .container .content p {
   margin: 0;
-  font-size: 12px;
-  font-family: "Kanit";
-  font-weight: 300;
+  font-size: 16px;
+  font-weight: 500;
   color: rgb(255, 255, 255);
 }
 .container .content li {
