@@ -22,6 +22,8 @@
       }
       .info {
         margin-left: 2rem;
+        font-size: 1.5rem;
+        width: 85%;
         .member-name {
           font-size: 3rem;
         }
@@ -135,7 +137,9 @@
         height: 30vh;
         flex-direction: row;
         width: auto;
-
+        .info {
+          width: 50vw;
+        }
         .member-image {
           width: 30vw;
           height: 30vw;

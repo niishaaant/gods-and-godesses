@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./roadmap.module.scss";
 
 const Roadmap = () => {
-  const [expand, setExpand] = useState(1);
+  // const [expand, setExpand] = useState(1);
   return (
     <>
       <section className={styles.roadmapSection} id="roadmap">

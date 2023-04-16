@@ -167,7 +167,9 @@ const Benefits = () => {
         </div>
         <div className="three">
           <div className="no">3</div>
-          <div> Nft buyers only participate into the glsc presale</div>
+          <div>
+            Only NFT holders can participate in GLSC token Private and Presale
+          </div>
         </div>
       </div>
     </div>
