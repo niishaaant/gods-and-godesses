@@ -133,6 +133,9 @@
       }
       .member-container {
         height: 30vh;
+        flex-direction: row;
+        width: auto;
+
         .member-image {
           width: 30vw;
           height: 30vw;

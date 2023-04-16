@@ -12,7 +12,7 @@ const Footer = () => {
   };
   return (
     <div className="footer-container">
-      <div className="top">
+      {/* <div className="top">
         <div className="button-container">
           <Link to="/collection" className="link">
             <button onClick={scrollToTop}>Discover Our Collection</button>
@@ -28,28 +28,28 @@ const Footer = () => {
             <button>Stay Updated on the Latest Life2 News</button>
           </Link>
         </div>
-      </div>
+      </div> */}
       <div className="bottom">
         <div className="left">
           <div className="logos">
             <span className="twitter logo">
               <a href="https://twitter.com/Life2_io">
-                <img src={twitter} width="26px" height="26px" />
+                <img src={twitter} />
               </a>
             </span>
             <span className="facebook logo">
               <a href="https://www.facebook.com/profile.php?id=100091639115487">
-                <img src={fb} width="24px" height="24px" />
+                <img src={fb} />
               </a>
             </span>
             <span className="reddit logo">
               <a href="https://www.reddit.com/r/Life2_io/">
-                <img src={reddit} width="24px" height="24px" />
+                <img src={reddit} />
               </a>
             </span>
             <span className="instagram logo">
               <a href="https://instagram.com/life2_io">
-                <img src={insta} width="24px" height="24px" />
+                <img src={insta} />
               </a>
             </span>
           </div>

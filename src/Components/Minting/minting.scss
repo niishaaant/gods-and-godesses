@@ -81,9 +81,9 @@
       .action {
         display: flex;
         flex-direction: column;
-        text-align: center;
         align-items: center;
         .buttons {
+          width: auto;
           img {
             width: 4rem;
             height: 4rem;

@@ -91,7 +91,7 @@
   }
   .future-collections {
     .heading {
-      font-size: 2rem;
+      font-size: 2.5rem;
       font-weight: 700;
       margin-bottom: 2rem;
     }
@@ -153,12 +153,13 @@
         filter: blur(0px);
       }
       .name {
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-weight: 700;
         z-index: 2;
       }
       .date {
         z-index: 2;
+        font-weight: 700;
       }
     }
   }

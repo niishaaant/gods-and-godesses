@@ -49,7 +49,6 @@
   }
 
   .openNavbar {
-    border-bottom: none;
     display: none;
   }
 }
@@ -80,6 +79,10 @@
       .logos {
         span {
           margin: 0 0.5rem;
+          img {
+            width: 2rem;
+            height: 2rem;
+          }
         }
       }
     }
@@ -99,7 +102,7 @@
     top: 2rem;
     right: 2rem;
     .openNavbar {
-      border-bottom: none;
+      border: none;
     }
   }
 }

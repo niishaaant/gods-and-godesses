@@ -24,11 +24,29 @@ const Hero = () => {
     <div className="hero">
       <div className="landing">
         <div id="title">
-          <div className="instruction left">Introducing</div>
+          {/* <div className="instruction left">Introducing</div> */}
           <img src={logo3}></img>
-          <div className="instruction">
-            scroll to <span style={{ color: "#fff" }}>explore</span>
+          <div className="buttons">
+            <div className="pri">
+              <Link to="/collection" className="link">
+                <button>Discover our collection</button>
+              </Link>
+            </div>
+            <div className="sec">
+              <Link to="/teamsupport" className="link">
+                <button
+                  onClick={() => {
+                    window.scrollTo(0, 1000);
+                  }}
+                >
+                  Join Life2 multiverse
+                </button>
+              </Link>
+            </div>
           </div>
+          {/* <div className="instruction">
+            scroll to <span style={{ color: "#fff" }}>explore</span>
+          </div> */}
         </div>
       </div>
       <Scroller />
