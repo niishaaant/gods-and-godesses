@@ -1,26 +1,38 @@
 .hero {
   width: 100%;
   #title {
+    .background-video {
+      height: 100vh;
+      video {
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
     color: #fff;
     text-align: center;
     font-weight: 700;
     font-size: 50px;
     letter-spacing: 5px;
-    z-index: 2;
     span {
       text-transform: uppercase;
     }
     img {
+      z-index: 2;
       width: 30vw;
     }
     .buttons {
       display: flex;
+      z-index: 2;
+
       button {
         background-color: transparent;
         border: 2px solid #ffb43c;
@@ -28,8 +40,7 @@
         font-size: 2.3rem;
       }
       button:hover {
-        background-color: rgba($color: #333, $alpha: 0.4);
-        box-shadow: 0 0 4px 3px #f9a112;
+        box-shadow: 0 0 5px 1px #f9a112;
       }
     }
     .instruction {
@@ -121,6 +132,10 @@
           font-size: 1.5rem;
           padding: 0.2rem 0.5rem;
           margin: 0.5rem 0.2rem;
+        }
+        .roadmap {
+          padding: 0.3rem 0.5rem;
+          font-weight: 700;
         }
       }
       .heading {
@@ -230,6 +245,7 @@
         display: block;
         button {
           width: 100%;
+          margin: 0;
         }
       }
     }

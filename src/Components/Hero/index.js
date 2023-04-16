@@ -18,12 +18,16 @@ import god12 from "../../utils/IMG_4643.gif";
 import god13 from "../../utils/IMG_4644.gif";
 import god15 from "../../utils/IMG_4646.gif";
 import god16 from "../../utils/IMG_4647.gif";
+import planets from "../../utils/planets.mp4";
 
 const Hero = () => {
   return (
     <div className="hero">
       <div className="landing">
         <div id="title">
+          {/* <div className="background-video">
+            <video src={planets} autoPlay muted loop></video>
+          </div> */}
           {/* <div className="instruction left">Introducing</div> */}
           <img src={logo3}></img>
           <div className="buttons">
@@ -136,12 +140,11 @@ const AboutLife2 = () => {
           </Link>
         </div>
         <div className="about-text">
-          <button>
+          <button className="roadmap">
             <Link to="/roadmap" className="link" onClick={scrollToTop}>
-              Click here
+              Roadmap
             </Link>
           </button>{" "}
-          to see the complete Roadmap.
         </div>
       </div>
       <div className="gif">
