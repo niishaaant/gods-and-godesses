@@ -18,7 +18,6 @@ import god12 from "../../utils/IMG_4643.gif";
 import god13 from "../../utils/IMG_4644.gif";
 import god15 from "../../utils/IMG_4646.gif";
 import god16 from "../../utils/IMG_4647.gif";
-import planets from "../../utils/planets.mp4";
 
 const Hero = () => {
   return (
