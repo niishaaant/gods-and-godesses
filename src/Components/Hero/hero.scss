@@ -228,6 +228,9 @@
       }
       .buttons {
         display: block;
+        button {
+          width: 100%;
+        }
       }
     }
     .about-life-container {
@@ -293,8 +296,7 @@
       flex-direction: column;
       div {
         flex-direction: row;
-        width: 100vw;
-        margin-right: 0.5rem;
+        width: 100%;
       }
       .no {
         justify-content: center;
