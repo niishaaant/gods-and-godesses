@@ -55,7 +55,20 @@ const Footer = () => {
           </div>
         </div>
         <div className="right">
-          <div className="rights">ALL RIGHTS RESERVED - 2022-2023</div>
+          <div className="rights">
+            ALL RIGHTS RESERVED BY{" "}
+            <a
+              href="https://globuschain.com/"
+              style={{
+                textDecoration: "none",
+                color: "rgb(255, 165, 20)",
+                borderBottom: "1px solid rgb(255, 165, 20)",
+              }}
+            >
+              GLOBUS
+            </a>{" "}
+            - 2022-2023
+          </div>
         </div>
       </div>
     </div>
