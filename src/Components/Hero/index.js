@@ -105,9 +105,9 @@ const ActionSection = () => {
             >
               <button className="primary-action">Get WhitePaper</button>
             </Link>
-            <Link to="/collection" className="link">
+            <Link to="/roadmap" className="link">
               <button className="secondary-action" onClick={scrollToTop}>
-                Explore Ecosystem
+                Roadmap
               </button>
             </Link>
           </div>
@@ -137,13 +137,6 @@ const AboutLife2 = () => {
           <Link to="/collection">
             <button onClick={scrollToTop}>Know More</button>
           </Link>
-        </div>
-        <div className="about-text">
-          <button className="roadmap">
-            <Link to="/roadmap" className="link" onClick={scrollToTop}>
-              Roadmap
-            </Link>
-          </button>{" "}
         </div>
       </div>
       <div className="gif">
