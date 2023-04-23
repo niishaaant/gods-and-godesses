@@ -69,6 +69,19 @@ const Footer = () => {
             </a>{" "}
             - 2022-2023
           </div>
+          <div style={{ fontSize: "1rem" }}>
+            Read our{" "}
+            <Link
+              to="/files/terms.pdf"
+              target="_blank"
+              download
+              className="link"
+              style={{ borderBottom: "2px solid #fff" }}
+            >
+              TERMS
+            </Link>{" "}
+            of commercial use.
+          </div>
         </div>
       </div>
     </div>

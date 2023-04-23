@@ -42,7 +42,7 @@ const Hero = () => {
                     window.scrollTo(0, 1000);
                   }}
                 >
-                  Join Life2 multiverse
+                  Gain early Access Now
                 </button>
               </Link>
             </div>
@@ -56,6 +56,7 @@ const Hero = () => {
       <ActionSection />
       <GlobusSection />
       <AboutLife2 />
+      <KnowMore />
       <Benefits />
     </div>
   );
@@ -73,9 +74,10 @@ const ActionSection = () => {
           <div className="introduction-container">
             <div className="website-name">Life2</div>
             <div className="website-tagline">
-              Life2.io, an innovative NFT multiverse project, combines
-              cutting-edge technology, immersive storytelling, and engaging
-              virtual environments to create transformative digital experiences.
+              The Eternal Gods have been summoned to reshape the universe and
+              now is your time. Discover the new world of the Gods, create the
+              digital multiverse and embark on an experience of lifetime. The
+              NFT universe will never be the same. Welcome to Life2.
               <br></br>
               <div className={showMore ? "contenct more" : "content"}>
                 The Life2 multiverse, crafted by eternal beings called the
@@ -147,11 +149,28 @@ const AboutLife2 = () => {
     </div>
   );
 };
+const KnowMore = () => {
+  return (
+    <div className="about-life-container">
+      <div className="about-text-container">
+        <div className="about-text">
+          <span className="heading">Want to know more?</span>
+          <br></br>
+          For further information please read our FAQ.
+          <br></br>
+          <Link to="/files/faq.pdf" target="_blank" download className="link">
+            <button className="primary-action">Get FAQs</button>
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const Benefits = () => {
   return (
     <div className="benefits-container">
-      <div className="heading">What's in it for you?</div>
+      <div className="heading">You’re Time is Now</div>
       <div className="content">
         <div className="one">
           <div className="no">1</div>
@@ -181,10 +200,12 @@ const GlobusSection = () => {
       <div className="content">
         <span className="heading">Globuschain</span>
         <br></br>
-        Life2.io is part of the Globuschain Project, a digital revolution
-        linking worlds and assets. By purchasing NFTs within Life2.io, users
-        gain access to Globuschain's private sale and exclusive perks across all
-        products and services.
+        Life 2.0 lives in the Globuschain Project universe. When you purchase
+        NFTs in Life2 the entire world of Globuschain opens up for you.
+        Globuschain gives you the power to leverage real world assets into
+        digital transactions and forever transform the way you engage with the
+        blockchain. The ICO is coming soon, and only holders of the Life2 NFTs
+        will have access.
         <br></br>
         <a href="https://globuschain.com/">
           <button>Visit</button>

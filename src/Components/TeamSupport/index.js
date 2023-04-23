@@ -92,13 +92,13 @@ const Support = () => {
               />
             </div>
             <div class="mc-field-group">
-              <label for="mce-MMERGE6">Query</label>
+              <label for="mce-MMERGE6">Wallet Address</label>
               <textarea
                 type="text"
                 name="MMERGE6"
                 class=""
                 id="mce-MMERGE6"
-                style={{ height: "6rem", color: "#fff" }}
+                style={{ height: "3rem", color: "#fff" }}
               />
             </div>
             <div id="mce-responses" class="clear">
